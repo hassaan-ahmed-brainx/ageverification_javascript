@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Document</title>
+  </head>
+  <body class="age-verify">
+    <form class="form-date" name="formdate">
+      <h1>Age Verification</h1>
+      <label for="">Day</label><br /><br />
+      <input name="day" type="number" min="1" max="31" required /><br /><br />
+      <label for="">Month</label><br /><br />
+      <input name="month" type="number" min="1" max="12" required /><br /><br />
+      <label for="">Year</label><br /><br />
+      <input
+        name="year"
+        type="number"
+        min="1970"
+        max="2023"
+        required
+      /><br /><br />
+      <button id="myBtn">Submit</button>
+    </form>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
